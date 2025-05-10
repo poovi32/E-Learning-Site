@@ -1,0 +1,591 @@
+/* * * Styles for About section * * * */
+
+
+.about-techfluent-section {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 120px 80px 100px;
+  gap: 30px;
+}
+
+
+/* * * Styles for About-Left section * * * */
+
+
+.about-tf-left-div {
+  position: relative;
+  flex-basis: 45%;
+  height: auto;
+  box-sizing: content-box;
+  padding: 20px;
+}
+
+.about-image-1 {
+  display: block;
+  border-radius: 40px;
+  width: 60%;
+  position: relative;
+  z-index: 1;
+}
+
+.batch-div {
+  position: absolute;
+  width: 200px;
+  top: 30px;
+  right: 20px;
+  text-align: center;
+}
+
+.about-logos {
+  width: 48px;
+  height: 48px;
+}
+
+.about-logos p {
+  font-weight: 900;
+}
+
+.about-image-2 {
+  display: block;
+  position: absolute;
+  border-radius: 40px;
+  width: 60%;
+  right: 20px;
+  top: 150px;
+}
+
+
+.batch-div p {
+  font-size: 16px;
+  color: #555;
+}
+
+.EST {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 2.5em;
+  padding-top: 30px;
+  padding-left: 10px;
+  color: transparent;
+  -webkit-text-stroke: 1px green;
+}
+
+
+/* * * Styles for About-Right section * * * */
+
+
+.about-tf-right-div {
+  flex-basis: 55%;
+  height: auto;
+  box-sizing: content-box;
+  padding: 20px;
+}
+
+.techfluent-history h2 {
+  color: #0f172a;
+  padding: 20px 0 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+}
+
+.about-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.blue-scholar-div {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px dashed #0f172a;
+  padding: 5px;
+}
+
+.blue-scholar {
+  width: 32px;
+  height: 32px;
+}
+
+.about-heading h4 {
+  font-size: 24px;
+  color: #0f172a;
+  font-weight: 500;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.techfluent-started,
+.mission-moto,
+.vision-moto {
+  color: #555;
+  padding: 10px 0;
+  line-height: 22px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.mission-vision-div {
+  display: flex;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+.mission-div {
+  width: 50%;
+}
+
+.binocular-logo,
+.target-logo {
+  padding: 20px 0;
+}
+
+.vision-div {
+  width: 50%;
+}
+
+.all-program-button {
+  margin: 20px 0;
+  padding: 20px 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #0f172a;
+  background-color: #0f172a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.all-program-button:hover {
+  background-color: white;
+  color: #0f172a;
+  border: 1px solid #0f172a;
+}
+
+
+/* * * Styles for Achievements section * * * */
+
+
+.achievements-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 80px;
+  margin: 0 80px 100px;
+  max-width: 100%;
+  height: 150px;
+  background-color: lightseagreen;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.achievements-section p {
+  color: white;
+}
+
+.achievement-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.achievement-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px dashed white;
+  background-color: rgba(245, 245, 245, 0.115);
+}
+
+.achievement-icon img {
+  width: 48px;
+}
+
+.achievement-label h1 {
+  font-size: 35px;
+}
+
+.achievement-label p {
+  font-size: 16px;
+}
+
+
+/* * * Styles for video section * * * */
+
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 80px 100px;
+}
+
+.video-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-div h2 {
+  color: #0f172a;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.video-div p {
+  color: #475569;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.intro-video {
+  width: 100%;
+  height: 500px;
+  border-radius: 25px;
+  object-fit: fill;
+}
+
+
+/* * * Styles for Tie-Up section * * * */
+
+
+.tie-up-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 80px;
+  margin: 0 80px 100px;
+  max-width: 100%;
+  height: 120px;
+  background-color: transparent;
+  border: 1px dotted #0f172a;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.partners-logo {
+  width: 200px;
+}
+
+
+/* * * Styles for Join us section * * * */
+
+
+.join-us-section {
+  display: flex;
+  align-items: center;
+  margin: 0 80px 100px;
+  gap: 20px;
+}
+
+.join-div {
+  display: flex;
+  flex-basis: 50%;
+  height: auto;
+  min-height: 250px;
+  border-radius: 20px;
+  padding: 20px 20px 0 20px;
+  position: relative;
+}
+
+.join-as-student-div {
+  background-color: lightseagreen;
+}
+
+.become-tutor-div {
+  background-color: lightcoral;
+}
+
+.join-content {
+  flex-basis: 60%;
+}
+
+.join-content h2 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+.join-content p {
+  color: white;
+  padding-bottom: 50px;
+}
+
+.join-content a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px 20px;
+  border: 1px solid white;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+
+.join-content a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.join-img {
+  flex-basis: 40%;
+  position: absolute;
+  top: -60px;
+  right: 0;
+  height: 100%;
+}
+
+.join-img img {
+  width: 280px;
+}
+
+/* *  ** Media Queries **  * */
+
+
+/* Mobile (up to 767px) */
+
+@media (max-width: 767px) {
+
+  .about-techfluent-section {
+    padding: 100px 30px 30px;
+    flex-direction: column;
+  }
+
+  .about-tf-left-div {
+    margin-bottom: 60px;
+  }
+
+  .batch-div {
+    width: 100px;
+  }
+
+  .EST {
+    font-size: 100%;
+  }
+
+  .about-heading {
+    padding-bottom: 0;
+  }
+
+  .achievements-section {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 30px;
+    margin: 50px 30px 30px;
+
+  }
+
+
+  .tie-up-section {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    margin: 50px 30px 30px;
+    padding: 30px 0;
+    align-items: center;
+  }
+
+  .achievement-card {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .video-section {
+    margin: 50px 30px 30px;
+    text-align: center;
+  }
+
+  .intro-video {
+    max-height: 300px;
+  }
+
+  .tie-up-section {
+    flex-direction: column;
+    height: auto;
+    margin: 50px 30px 30px;
+    height: auto;
+    gap: 40px;
+    padding: 30px 0;
+  }
+
+  .join-us-section {
+    flex-direction: column;
+    margin: 50px 30px 30px;
+    gap: 30px;
+  }
+
+  .join-div {
+    height: auto;
+    min-height: max-content;
+    padding-bottom: 30px;
+  }
+
+  .join-content {
+    flex-basis: 100%;
+  }
+
+  .join-img {
+    display: none;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-techfluent-section {
+    padding: 80px 40px 60px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-tf-left-div {
+    flex-basis: 50%;
+    margin-bottom: 50px;
+  }
+
+  .achievements-section,
+  .tie-up-section {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    padding: 40px 20px;
+    margin: 40px 20px;
+    align-items: center;
+  }
+
+  .achievement-card {
+    width: 30%;
+    text-align: center;
+  }
+
+  .achievement-label h1 {
+    font-size: 30px;
+  }
+
+  .video-section {
+    margin: 40px 20px;
+    text-align: center;
+  }
+
+  .intro-video {
+    max-height: 400px;
+  }
+
+  .join-us-section {
+    flex-direction: row;
+    margin: 40px 20px;
+    gap: 20px;
+  }
+
+  .join-div {
+    flex-basis: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .join-content {
+    flex-basis: 100%;
+  }
+
+  .join-img {
+    display: none;
+  }
+
+}
+
+
+/* * * * Animations* * * */
+
+/* animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode] [play-state]; */
+
+/* Animation for achievements section */
+
+@keyframes fadeup{
+  from{
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.achievement-card{
+  animation: fadeup 2s ease-in-out forwards;
+  animation-delay: 0.4s;
+}
+
+/* Animation for tie-up section */
+
+
+@keyframes fadeSlideLeft {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.tie-up-section {
+  animation: fadeSlideLeft 1.2s ease-out forwards;
+  animation-delay: 0.6;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-techfluent-section,
+.video-section,
+.join-us-section{
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1.5s ease forwards;
+}
+
+.about-techfluent-section{
+  animation-delay: 0.3s;
+}
+
+.video-section{
+  animation-delay: 0.5s;
+}
+
+.join-us-section,
+.join-div{
+  animation-delay: 0.7s;
+}
+
+.join-div{
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideIn 1s ease forwards;
+}

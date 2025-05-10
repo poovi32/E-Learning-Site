@@ -1,0 +1,451 @@
+/* * * Styles for Main-Page section * * * */
+
+.main-page {
+  position: relative;
+  background-image: url(./Images/background.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.hero-section {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.headline {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  max-width: 650px;
+  text-align: center;
+  margin: 30px 0;
+  color: white;
+}
+
+.hero {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  max-width: 750px;
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 400;
+  color: white;
+}
+
+.CTA-div {
+  display: flex;
+  align-items: center;
+  max-width: 750px;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.CTA {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.CTA-button {
+  font-size: 16px;
+  padding: 15px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  transition: 0.2s;
+  color: white;
+  background-color: transparent;
+}
+
+.CTA-button:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+}
+
+
+/* * * Styles for Tutor section * * * */
+
+
+.tutor-section {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 80px 0;
+  row-gap: 25px;
+}
+
+.tutors-intro h2 {
+  font-size: 42px;
+  color: #0f172a;
+}
+
+.tutors-intro p {
+  font-size: 18px;
+  color: #555;
+}
+
+.instructors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 50px 0;
+}
+
+.instructor-profile {
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.instructor-profile:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.tutor-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px auto;
+}
+
+.tutor-name {
+  font-size: 24px;
+  padding: 10px 0;
+  color: #0f172a;
+}
+
+.tutor-role {
+  font-size: 14px;
+  padding: 10px 0;
+  color: #555;
+}
+
+.tutor-bio {
+  font-size: 14px;
+  color: #555;
+}
+
+.tutors-social-media-div {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.tutors-social-media {
+  height: 20px;
+  width: 20px;
+}
+
+
+/* * * Styles for Testimonial section * * * */
+
+
+.testimonal-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px 100px;
+  row-gap: 25px;
+}
+
+.testimonial-stories h2 {
+  font-size: 42px;
+  color: #0f172a;
+}
+
+.testimonial-stories p {
+  font-size: 18px;
+  color: #555;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+
+.testimony-columns {
+  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.rating {
+  font-size: 25px;
+  color: #0f172a;
+}
+
+.testimony-description {
+  font-size: 20px;
+  padding: 30px 0 20px;
+  color: #555;
+}
+
+.testimony-avatar {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+}
+
+.students {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #0f172a;
+}
+
+.snippets {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #555;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 400;
+}
+
+
+/* * * Styles for Blog section * * * */
+
+
+.blog-section {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.blog-section h1 {
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.blog-intro {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.blog-card {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.blog-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-title {
+  color: #0f172a;
+  margin: 20px;
+}
+
+.blog-snippet {
+  margin: 0 20px;
+}
+
+.read-more {
+  display: inline-block;
+  margin: 20px 0;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+
+
+
+/* * * Media Queries * * */
+
+
+/* Mobile (up to 767px) */
+
+@media (max-width: 767px) {
+
+  .main-page {
+    text-align: center;
+    padding: 50px 30px 30px;
+    width: auto;
+    height: auto;
+  }
+
+  .CTA-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tutor-section {
+    padding: 50px 30px 30px;
+    text-align: center;
+  }
+
+  .tutors-intro h2 {
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+
+  .tutors-intro p {
+    margin-bottom: 20px;
+  }
+
+  .instructors-grid {
+    padding-top: 0px;
+  }
+
+  .testimonal-section,
+  .blog-section{
+    padding: 50px 30px 30px;
+  }
+
+  .testimonial-stories{
+    text-align: center;
+  }
+
+  .testimony-description{
+    padding-top: 10px;
+  }
+
+}
+
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main-page {
+    text-align: center;
+    padding: 80px 40px;
+    background-position: center;
+    box-sizing: border-box;
+  }
+
+  .hero-section {
+    padding: 20px;
+  }
+
+  .CTA-div {
+    flex-direction: column; 
+    gap: 15px;
+  }
+
+  .tutor-section {
+    padding: 80px 40px;
+  }
+
+
+  .instructors-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .testimonal-section {
+    padding: 80px 40px;
+  }
+
+  .testimonials {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 50px;
+  }
+
+  .blog-section {
+    padding: 80px 40px;
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+}
+
+
+/* * Animations* */
+
+.hero-section {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 2s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.tutor-section,
+.testimonal-section,
+.blog-section{
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1.5s ease forwards;
+}
+
+.tutor-section,
+.instructors-grid{
+  animation-delay: 0.4s;
+}
+
+.testimonal-section,
+.testimonials{
+  animation-delay: 0.5s;
+}
+
+.blog-section,
+.blog-grid{
+  animation-delay: 0.6s;
+}
+
+.instructors-grid,
+.testimonials,
+.blog-grid{
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideIn 1s ease forwards;
+}
